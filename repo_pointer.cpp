@@ -13,9 +13,11 @@ int main() {
 	cout << *ptr << endl;
 	cout << n << endl;   //vivod peremennoy n s drugim znacheniem
 
+	int v;
+	int* ptr2=&v;
+	*ptr2 = 7;
+	cout << "\t V= " << v << endl;
 
-	int* ptr2;
-	*ptr2 = 2;
 	system("pause>0");
 	return 0;
 }
