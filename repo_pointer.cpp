@@ -9,6 +9,11 @@ int main() {
 	int* ptr = &n; //int* sozdan ukazantel / prt -> imya / na adres peremennoy n (&n)
 	cout << ptr << endl;//vivod adressa  ukazanelya
 	cout << *ptr << endl;//dostup k znacheniyu ptr chrez razimenovanie *ptr
+	*ptr = 10;//izmenenie znacheniya na adrese *ptr
+	cout << *ptr << endl;
+
+
+
 	system("pause>0");
 	return 0;
 }
